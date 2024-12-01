@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+    <div class="reg">
+        <h1>facebook</h1>
+        <div class="acc">
+            <h2>Create a new account</h2>
+            <h3>It's quick and easy</h3>
+            <hr>
+            <form action="login.html">
+                <input type="text" placeholder="First name">
+                <input type="text" placeholder="Surname"><br>
+                <label class="gen" for="birth">Date of birth<span>*</span> </label><br>
+                <input type="date" id="birth" required>
+                <br>
+                <label class="gen">Gender<span>*</span></label> <br>
+                <input type="radio" name="gender" id="male" value="male">
+                <label>Male</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label>Female</label>
+                <input type="radio" name="gender" id="other" value="other">
+                <label>Other</label>
+                <br>
+                <input type="number" placeholder="Mobile number or email"><br>
+                <input type="password" placeholder="new password">
+
+                <h4 class="bot">People who use our service may have uploaded your contact information to Facebook. <a
+                        href="">Learn more</a>.</h4>
+                <h4 class="bot">By clicking Sign Up, you agree to our <a href="">Terms, Privacy Policy </a> and Cookies
+                    Policy. You may receive SMS notifications from us and can opt out at any time.</h4>
+
+                <button>Sign up</button>
+                <h4 class="sub"><a href="login.html">Already have an account ?</a></h4>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

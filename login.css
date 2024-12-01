@@ -1,0 +1,90 @@
+.main {
+    display: flex;
+    margin-left: 200px;
+    gap: 250px;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.right {
+    height: 348px;
+    width: 397px;
+    margin-top: 200px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.left{
+    margin-left: 60px;
+    margin-top: 250px;
+}
+
+input[type] {
+    margin-top: 12px;
+    width: 92%;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: large;
+    height: 40px;
+    border-radius: 8px;
+    padding-left: 10px;
+    
+
+}
+
+
+.but1 {
+    background-color: rgb(24, 119, 242);
+    border-color: rgb(24, 119, 242);
+    color: white;
+    height: 40px;
+    width: 95%;
+    font-size: large;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.right a {
+    text-decoration: none;
+    margin-left: 35%;
+    font-size: large;
+}
+
+a{
+    color:rgb(24, 119, 242) ;
+    
+}
+
+
+.but2 {
+    height: 48px;
+    width: 192px;
+    background-color: rgb(66, 183, 42);
+    color: white;
+    margin-top: 20px;
+    margin-left: 100px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 8px;
+    font-size: 17px;
+    margin-bottom: 24px;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(24, 119, 242) ;
+    font-size: 60px;
+    line-height: 10px;
+}
+
+h2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
